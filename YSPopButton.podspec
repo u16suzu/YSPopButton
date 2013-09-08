@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "YSPopButton"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of YSPopButton."
+  s.version      = "0.0.2"
+  s.summary      = "Pop Animation Button."
 
   s.description  = <<-DESC
-                   A longer description of YSPopButton in Markdown format.
+                   Pop Animation Button.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/YSPopButton"
+  s.homepage     = "http://u16suzu.hatenablog.com/"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = 'MIT'
   s.author       = { "u16suzu" => "u16suzu@gmail.com" }
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
 
-  s.source       = { :git => "ssh://git@bitbucket.org/u16suzu/yspopbutton.git", :tag => "0.0.1" }
+  s.source       = { :git => "ssh://git@bitbucket.org/u16suzu/yspopbutton.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
