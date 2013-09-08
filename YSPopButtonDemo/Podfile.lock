@@ -1,0 +1,23 @@
+PODS:
+  - AHEasing (1.1)
+  - BlocksKit (1.8.3):
+    - libffi
+  - libffi (3.0.13)
+  - YSPopButton (0.0.4):
+    - AHEasing
+    - BlocksKit
+
+DEPENDENCIES:
+  - YSPopButton (from `..`)
+
+EXTERNAL SOURCES:
+  YSPopButton:
+    :path: ..
+
+SPEC CHECKSUMS:
+  AHEasing: b9a02ca67d0d663e2a8b83fd24fa8c2ecc5ddf9b
+  BlocksKit: 27257f9cbbec0ea98c80ba83cc2ea7111ae62eb2
+  libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
+  YSPopButton: 8c43b493deace6faaa489e063702440042658fa4
+
+COCOAPODS: 0.24.0
