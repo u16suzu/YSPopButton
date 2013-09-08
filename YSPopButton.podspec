@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YSPopButton"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Pop Animation Button."
 
   s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "u16suzu" => "u16suzu@gmail.com" }
   s.platform     = :ios, '5.0'
   s.source       = { :git => "ssh://git@bitbucket.org/u16suzu/yspopbutton.git", 
-    :tag => "0.0.6" }
+    :tag => "#{s.version}" }
   s.source_files  = 'YSPopButton/**/*.{h,m}'
   s.dependency 'BlocksKit'
   s.dependency 'AHEasing'
