@@ -11,10 +11,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "u16suzu" => "u16suzu@gmail.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "ssh://git@github.com:u16suzu/YSPopButton.git", 
+  s.source       = { :git => "https://github.com/u16suzu/YSPopButton.git", 
     :tag => "0.0.7" }
   s.source_files  = 'YSPopButton/**/*.{h,m}'
-  s.resources = 'YSPopButton/**/App-Bits Icons/*'
   s.dependency 'BlocksKit'
   s.dependency 'AHEasing'
 
