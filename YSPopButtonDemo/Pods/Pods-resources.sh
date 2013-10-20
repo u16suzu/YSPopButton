@@ -39,6 +39,10 @@ install_resource()
       ;;
   esac
 }
+install_resource "../../YSPopButton/App-Bits Icons/00_License.txt"
+install_resource "../../YSPopButton/App-Bits Icons/00_readme.pdf"
+install_resource "../../YSPopButton/App-Bits Icons/retina"
+install_resource "../../YSPopButton/App-Bits Icons/standard"
 
 rsync -avr --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rm -f "$RESOURCES_TO_COPY"
