@@ -1,4 +1,4 @@
-Copyright (c) 2013 So Matsuda
+Copyright (c) 2013 u16suzu Yuichiro Suzuki
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
